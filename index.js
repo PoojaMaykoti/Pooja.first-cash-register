@@ -6,7 +6,7 @@ const checkButton = document.querySelector("#check-btn");
 
 const message = document.querySelector("#error-message");
 
-const noOfNotes = document.querySelectorAll("#no-of-notes");
+const noOfNotes = document.querySelectorAll(".no-of-notes");
 
 // console.log(cashGiven.value);
 
@@ -18,17 +18,17 @@ const availableNotes = [2000,500,100,20,10,5,1];
 checkButton.addEventListener("click",function validateBillandcashAmount()
 
 {
-    hideMessage();
+    hideMessage()
 
 
-    message.style.display="none";
+    // message.style.display="none";
     
     if(billamount.value > 0)
     {
 
-    if(cashGiven.value > billamount.value )
+    if(cashGiven.value >= billamount.value )
     {
-         const amountTobeReturned = cashGiven.value = billamount.value;
+         const amountTobeReturned = cashGiven.value - billamount.value;
          calculateChange(amountTobeReturned);
     }
 
@@ -37,7 +37,7 @@ checkButton.addEventListener("click",function validateBillandcashAmount()
     {  
         showMessage
         (
-            "DO you wanna wash plats?"
+            "Do you wanna wash plates?"
             );
 
    }
@@ -64,18 +64,16 @@ function calculateChange(amountToBeReturned) {
        );
 
        amountToBeReturned %= availableNotes[i];
-       noOfNotes[i].innerText=numberOfNotes ;
+       noOfNotes[i].innerText = numberOfNotes ;
    }
 }
-
-function hideMessage()
-{
-    message.style.display="none";
-    
-}
+ function hideMessage()
+ {
+     message.style.display = 'none';
+ }
 
 function showMessage(msg)
 {
-    message.style.display = "block";
-    message.inneText = msg;
+    message.style.display = 'block';
+    message.innerText = msg;
 }

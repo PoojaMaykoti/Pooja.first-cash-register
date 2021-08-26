@@ -6,7 +6,7 @@
     flex-direction: column; */
     /* width: 50vw; */
     background-color:#0B453E;
-    height:430px;
+    height:480px;
     width: 40%;
     /* margin-top: 20px; */
     margin: auto;
@@ -75,10 +75,10 @@
     color:BBFDF5;
 }
 
-#no-of-notes
+.no-of-notes
 {
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width:11%;
     height: 28px;
     /* line-height: 10px; */
