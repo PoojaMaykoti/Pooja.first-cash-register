@@ -15,7 +15,7 @@ body{
 
 
 
-.div1
+/* .div1
 {
 
     background-color:#0B453E;
@@ -23,7 +23,20 @@ body{
     width: 40%;
    margin-top: 30px;
    margin-left: 30%;;
-   border-radius: 8px;
+
+
+} */
+
+.div1
+{
+    background-color:#0B453E;
+
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 30%;;
+   /* height: 500px; */
+     border-radius: 10px;
+
 
 }
 
@@ -32,13 +45,13 @@ body{
        text-align: center;
        padding-top: 20px;
        color: white;
-       font-size: 31px;
+       font-size: 34px;
 }
 .para
 {
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 #label1
@@ -69,7 +82,7 @@ body{
 }
 #id2
 {
- margin-left: 20px;
+ margin-left: 25px;
  width: 370px;
  height: 40px;
  border-radius: 8px;
@@ -81,7 +94,7 @@ body{
 
     width: 25%;
     height:40px;
-    margin-left: 160px;
+    margin-left: 230px;
     border-radius: 8px;
     background-color: #BBFDFF;
     font-size: 20px;
@@ -89,24 +102,23 @@ body{
 
 #caption1
 {
-    font-size:28px;;
-    color:BBFDF5;
+    font-size:28px;
+    color:#BBFDF5;
 }
 
 .no-of-notes
 {
     background-color: white;
-    /* border: 1px solid black; */
+
     width:11%;
     height: 28px;
-    /* line-height: 10px; */
-    /* padding-left: 10px; */
+
 }
 
 .note
 {
     background-color: #7AF3E3;
- font-size: 20px;
+     font-size: 20px;
     border: 1px solid black;
 
 }
@@ -118,10 +130,7 @@ body{
 }
 .table1
 {
-    margin-left: 20px;
-}
+      padding-bottom: 30px;
+    margin-left: 80px;
 
-.div1
-{
-  /* margin-left: 10px; */
 }
