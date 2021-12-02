@@ -24,7 +24,7 @@ body{
     width: 45%;
     margin-top: 20px;
     margin-left: 30%;;
-   
+   /* height: 100%; */
      border-radius: 10px;
 
 
@@ -127,3 +127,17 @@ body{
     margin-left: 77px;
 
 }
+#active-contianer1
+{
+    margin-left: 39%;
+    
+    font-size: 30px;
+    height: 10%;
+   
+}
+
+a{
+    text-decoration: none;
+    color:#BBFDF5;
+}
+
